@@ -14,6 +14,8 @@ We made use of the following:
 - JavaScript
 - CSS
 - Sass
+## Live Link
+Netlify: [link](https://keen-einstein-00221c.netlify.app)
 
 ## Getting Started
 To get a local copy of the repository please run the following commands on your terminal:

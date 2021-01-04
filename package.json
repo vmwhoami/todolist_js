@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack serve",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -33,7 +34,8 @@
     "stylelint-scss": "^3.17.2",
     "svg-inline-loader": "^0.8.2",
     "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.1"
   },
   "dependencies": {}
 }

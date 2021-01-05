@@ -1,6 +1,17 @@
-import { jest } from '@jest/globals'
+
 import svgSet from '../src/components/svgSet';
 
-describe("Filter function", () => {
+
+
+
+describe("Test svg cloning function", () => {
+
+  test("svgSet to be defined", () => {
+    expect(svgSet).toBeDefined()
+  })
+
+  test("svgSet function set clone an svg", () => {
+
+  })
 
 });

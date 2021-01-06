@@ -1,15 +1,16 @@
-const todo = require('../src/components/todoClass');
+
+import Todo from '../src/components/todoClass';
 
 
 describe('Expect to create todoClass', () => {
   let todos;
 
   beforeEach(() => {
-    todos = new todo.Todo('Item');
+    todos = new Todo('Item');
   });
 
   it('It is expected to create a todo Instance', () => {
-    expect(todos).toBeInstanceOf(todo.Todo);
+    expect(todos).toBeInstanceOf(Todo);
   });
 
   it('It is expected to create a todo Instance', () => {

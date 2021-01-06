@@ -1,13 +1,14 @@
-const category = require('../src/components/categoryClass');
+import Category from '../src/components/categoryClass';
+
 
 describe('expect the Category to be a class', () => {
   let cat;
   beforeEach(() => {
-    cat = new category.Category('the best thing');
+    cat = new Category('the best thing');
   });
 
   it('It expects to create a category instance', () => {
-    expect(cat).toBeInstanceOf(category.Category);
+    expect(cat).toBeInstanceOf(Category);
   });
 
   it('it expect that a category should have array of items', () => {

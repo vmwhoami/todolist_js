@@ -5,7 +5,4 @@ class Category {
     this.items = [];
   }
 }
-
-module.exports = {
-  Category,
-};
+export default Category;

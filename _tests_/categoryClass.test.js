@@ -9,10 +9,9 @@ describe("expect the Category to be a class", () => {
     expect(cat).toBeInstanceOf(category.Category)
   })
 
-  it("it expect that an category should have array of items", () => {
-
+  it("it expect that a category should have array of items", () => {
     cat.items.push("hello")
-    expect(cat.items.[0]).toBe("hello")
+    expect(cat.items[0]).toBe("hello")
   })
 
 })

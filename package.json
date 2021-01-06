@@ -11,7 +11,9 @@
   },
   "jest": {
     "verbose": true,
-    "setupFilesAfterEnv": ["<rootDir>/Setup.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>/Setup.js"
+    ]
   },
   "repository": {
     "type": "git",

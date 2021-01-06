@@ -14,6 +14,7 @@ We made use of the following:
 - JavaScript
 - CSS
 - Sass
+
 ## Live Link
 Netlify: [link](https://keen-einstein-00221c.netlify.app)
 
@@ -24,6 +25,12 @@ $ git clone https://github.com/vmwhoami/todolist_js
 ```
 ```
 $ cd to-do-list
+```
+
+## Testing with jest
+To run test for the different functions, type the following command in your terminal
+```
+npm test
 ```
 
 ## Authors

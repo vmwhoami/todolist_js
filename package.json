@@ -6,7 +6,14 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "start": "webpack serve",
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "<rootDir>/Setup.js"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,12 +25,16 @@
   "bugs": {},
   "homepage": "https://github.com/Georjane/to-do-list#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
     "css-loader": "^5.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "file-loader": "^6.2.0",
+    "jest": "^26.6.3",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "style-loader": "^2.0.0",
@@ -33,7 +44,10 @@
     "stylelint-scss": "^3.17.2",
     "svg-inline-loader": "^0.8.2",
     "webpack": "^5.10.0",
-    "webpack-cli": "^4.2.0"
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.14.10"
+  }
 }

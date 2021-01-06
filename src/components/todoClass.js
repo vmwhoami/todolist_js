@@ -6,7 +6,4 @@ class Todo {
     this.duedate = duedate;
   }
 }
-
-module.exports = {
-  Todo,
-};
+export default Todo;

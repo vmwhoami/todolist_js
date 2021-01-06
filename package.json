@@ -9,6 +9,10 @@
     "start": "webpack serve",
     "test": "jest"
   },
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": ["<rootDir>/Setup.js"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Georjane/to-do-list.git"
